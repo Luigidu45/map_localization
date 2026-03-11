@@ -11,17 +11,11 @@
 ---
 
 ## 🎬 Navigation Demonstration
-![Demostración de Map & Localization](./docs/map_localization.mp4)
+
 <div align="center">
-  <a href="https://github.com/Luigidu45/map_localization/blob/main/docs/map_localization.mp4">
-    <video src="https://github.com/Luigidu45/map_localization/raw/main/docs/map_localization.mp4" width="100%" controls>
-    </video>
-  </a>
-  <p><i>If the video doesn't load, click <a href="https://github.com/Luigidu45/map_localization/blob/main/docs/map_localization.mp4">here</a> to watch it.</i></p>
+  <img src="docs/map_localization.gif" width="100%" />
+  <p><em>Real-time system operation</em></p>
 </div>
-<video src="./docs/map_localization.mp4" controls width="100%">
-  Tu navegador no soporta el tag de video.
-</video>
 
 ---
 
