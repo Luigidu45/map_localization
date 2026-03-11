@@ -13,9 +13,11 @@
 ## 🎬 Navigation Demonstration
 
 <div align="center">
-  <!-- Once you place your video or GIF in the docs folder, it will be displayed here -->
-  <video src="docs/map_localization.mp4" controls="controls" style="max-width: 100%; height: auto;">
-  </video>
+  <a href="https://github.com/Luigidu45/map_localization/blob/main/docs/map_localization.mp4">
+    <video src="https://github.com/Luigidu45/map_localization/raw/main/docs/map_localization.mp4" width="100%" controls>
+    </video>
+  </a>
+  <p><i>If the video doesn't load, click <a href="https://github.com/Luigidu45/map_localization/blob/main/docs/map_localization.mp4">here</a> to watch it.</i></p>
 </div>
 
 ---
