@@ -1,20 +1,40 @@
 # 🤖 SelfNav: Autonomous Navigation Workspace
 
-This repository provides a comprehensive ecosystem for developing and simulating autonomous mobile robots using **ROS 2 Humble**. It covers everything from physical robot modeling to SLAM implementation and advanced navigation.
+<div align="center">
+  <img src="https://img.shields.io/badge/ROS2-Humble-blue?style=for-the-badge&logo=ros" alt="ROS2 Jazzy">
+  <img src="https://img.shields.io/badge/Gazebo-Classic-orange?style=for-the-badge&logo=gazebo" alt="Gazebo">
+  <img src="https://img.shields.io/badge/Ubuntu-22.04-E95420?style=for-the-badge&logo=ubuntu" alt="Ubuntu 24.04">
+  <img src="https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python" alt="Python 3.10">
+  <img src="https://img.shields.io/badge/C++-17-00599C?style=for-the-badge&logo=c%2B%2B" alt="C++ 17">
+</div>
+
+---
+
+## 🎬 Navigation Demonstration
+
+<div align="center">
+  <!-- Once you place your video or GIF in the docs folder, it will be displayed here -->
+  <video src="docs/map_localization.mp4" controls="controls" style="max-width: 100%; height: auto;">
+  </video>
+</div>
+
+---
+
+This repository is a comprehensive ecosystem for the development and simulation of autonomous mobile robots using **ROS 2 Humble**. it includes everything from physical robot modeling to SLAM implementation and advanced navigation.
 
 ---
 
 ## 📂 Project Structure
 
-The workspace is organized into modular packages, each with a specific responsibility:
+The workspace is divided into modular packages, each with a specific responsibility:
 
 | Package | Description |
 | :--- | :--- |
 | `selfbot_bringup` | Main entry point. Contains the launch files that orchestrate the entire system. |
-| `selfbot_description` | Defines the physical appearance (URDF/Xacro), 3D meshes, and physical properties for Gazebo simulation. |
+| `selfbot_description` | Defines the physical appearance (URDF/Xacro), 3D meshes, and physical properties of the robot for Gazebo. |
 | `selfbot_controller` | Manages robot movement, including PID controllers, differential drive, and joystick teleoperation. |
 | `selfbot_localization` | Implements localization using **AMCL (Adaptive Monte Carlo Localization)** and Nav2 configuration. |
-| `selfbot_mapping` | Configuration for **SLAM Toolbox**, enabling active environment mapping. |
+| `selfbot_mapping` | Configuration for **SLAM Toolbox**, allowing active environment mapping. |
 | `selfbot_utils` | Auxiliary tools such as the **Safety Stop** system. |
 
 ---
@@ -22,14 +42,14 @@ The workspace is organized into modular packages, each with a specific responsib
 ## 🚀 Getting Started
 
 ### Prerequisites
-- ROS 2 Humble
+- ROS 2 Jazzy
 - Gazebo (Classic or Ignition/Gazebo Sim)
 - Nav2 Stack
 - SLAM Toolbox
 
 ### Main Execution
 
-The `simulated_robot.launch.py` file is the core launcher. It allows you to choose between mapping a new environment or navigating within a known one.
+The `simulated_robot.launch.py` file is the "brain" of the launch. It allows you to choose between mapping a new environment or navigating in a known one.
 
 #### 1. Localization Mode (Existing Map) 📍
 Use this mode when you already have a saved map and want the robot to navigate within it.
@@ -52,7 +72,7 @@ ros2 launch selfbot_bringup simulated_robot.launch.py use_slam:=true
 
 *   **Intelligent Safety Stop:** The `safety_stop.py` node monitors laser sensors to prevent imminent collisions, automatically stopping the robot if obstacles are detected too close.
 *   **Flexible Control:** Support for manual control via joystick (teleop) or autonomous control through the navigation stack.
-*   **Realistic Simulation:** Detailed modeling in Gazebo including friction, inertia, and range sensors (LIDAR).
+*   **Realistic Simulation:** Detailed modeling in Gazebo with friction, inertia, and range sensors (LIDAR).
 
 ---
 
