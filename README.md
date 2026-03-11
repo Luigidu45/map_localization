@@ -1,9 +1,9 @@
 # 🤖 SelfNav: Autonomous Navigation Workspace
 
 <div align="center">
-  <img src="https://img.shields.io/badge/ROS2-Humble-blue?style=for-the-badge&logo=ros" alt="ROS2 Jazzy">
+  <img src="https://img.shields.io/badge/ROS2-Jazzy-blue?style=for-the-badge&logo=ros" alt="ROS2 Jazzy">
   <img src="https://img.shields.io/badge/Gazebo-Classic-orange?style=for-the-badge&logo=gazebo" alt="Gazebo">
-  <img src="https://img.shields.io/badge/Ubuntu-22.04-E95420?style=for-the-badge&logo=ubuntu" alt="Ubuntu 24.04">
+  <img src="https://img.shields.io/badge/Ubuntu-24.04-E95420?style=for-the-badge&logo=ubuntu" alt="Ubuntu 24.04">
   <img src="https://img.shields.io/badge/Python-3.10-3776AB?style=for-the-badge&logo=python" alt="Python 3.10">
   <img src="https://img.shields.io/badge/C++-17-00599C?style=for-the-badge&logo=c%2B%2B" alt="C++ 17">
 </div>
@@ -20,7 +20,7 @@
 
 ---
 
-This repository is a comprehensive ecosystem for the development and simulation of autonomous mobile robots using **ROS 2 Humble**. it includes everything from physical robot modeling to SLAM implementation and advanced navigation.
+This repository is a comprehensive ecosystem for the development and simulation of autonomous mobile robots using **ROS 2 Jazzy**. it includes everything from physical robot modeling to SLAM implementation.
 
 ---
 
