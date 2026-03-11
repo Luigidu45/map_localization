@@ -11,7 +11,7 @@
 ---
 
 ## 🎬 Navigation Demonstration
-
+![Demostración de Map & Localization](./docs/map_localization.mp4)
 <div align="center">
   <a href="https://github.com/Luigidu45/map_localization/blob/main/docs/map_localization.mp4">
     <video src="https://github.com/Luigidu45/map_localization/raw/main/docs/map_localization.mp4" width="100%" controls>
